@@ -8,7 +8,6 @@ const { embedMessage } = require('./embedMessage')
 
 const livechat = process.env.livechat;
 
-reuire('dotenv').config();
 require('./keepalive.js');
 
 const bot = mineflayer.createBot({

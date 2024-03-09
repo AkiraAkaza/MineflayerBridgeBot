@@ -24,7 +24,7 @@ function loginBot(bot) {
   });
 
   bot.on('messagestr', (message) => {
-    if (message.includes( process.env.preifx + `ask `)) {
+    if (message.includes(`*ask `)) {
       const question = message.substring(5);
       axios.get(`http://api.brainshop.ai/get?bid=153868&key=rcKonOgrUFmn5usX&uid=1&msg=${encodeURIComponent(question)}`)
         .then((response) => {

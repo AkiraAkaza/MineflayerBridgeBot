@@ -1,5 +1,5 @@
 {
-  "name": "AkiraDEV/MineflayerDiscordBot",
+  "name": "AkiraDEVMineflayerDiscordBot",
   "version": "1.0.0",
   "description": "Mineflayer Bridge Bot with discord channel",
   "main": "index.js",
